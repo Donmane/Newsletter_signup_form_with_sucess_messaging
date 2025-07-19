@@ -1,0 +1,76 @@
+body{
+    background-color: #36384E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mained{
+    border: 1px solid black;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2rem;
+}
+ol{
+    list-style: none;
+    display: grid;
+    padding: 0;
+}
+.stay{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1,h3{
+    font-size: 2rem;
+}
+p{
+font-size: 1rem;
+}
+input{
+    padding: 1rem;
+    border-radius: 0.7rem;
+    border: 1px solid #9294A0;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+button{
+    padding: 1rem;
+    border-radius: 0.7rem;
+    background-color: #242742;
+    font-size: 2rem;
+    color: white;
+}
+button:hover{
+    background-color: #FF417E;
+}
+button:active{
+    padding: 0.9rem;
+}
+.hidden{
+display: none;
+}
+.pic{
+    max-width: 4rem;
+}
+.hide{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+.first{
+    display: flex;
+    gap: 2rem;
+}
+.hde{
+    display: none;
+}
