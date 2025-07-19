@@ -70,3 +70,17 @@ display: none;
     display: flex;
     gap: 2rem;
 }
+picture img{
+    width: 100%;
+    
+}
+@media (max-width:1024px) {
+.stay{
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+    width: 100%;
+
+}
+}

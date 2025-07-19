@@ -9,7 +9,7 @@
 <body>
     <main class="mained" id="mained">
         <div class="stay" id="view">
-            <div>
+            <div class="them">
             <h1>Stay updated</h1>
             <p>Join 60,000+ product managers receiving monthly updates on:</p>
             <ol>
@@ -19,6 +19,7 @@
             </ol>
             <div class="email">
                 <h3>Email address</h3>
+                <p class="hidden" id="para">input a valid email</p>
                 <input type="email" name="" id="email">
                 <button id="bott">Subscribe to montly newsletter</button>
             </div>
@@ -26,10 +27,10 @@
 
             </div>
 
-            <picture>
+        <picture class="they">
             <source srcset="/images/illustration-sign-up-desktop.svg"
             media="(min-width: 1024px)">
-            <img  src="/images/illustration-sign-up-mobile.svg" alt="">
+            <img  src="" alt="">
         </picture>
 
 
@@ -39,8 +40,8 @@
         <div class="hidden" id="views">
             <img class="pic" src="/images/icon-success (1).svg" alt="">
             <h1>Thanks for subscribing!</h1>
-            <p></p>
-            <button>dismiss message</button>
+            <p id="final"></p>
+            <button id="bomb">dismiss message</button>
         </div>
 
 
