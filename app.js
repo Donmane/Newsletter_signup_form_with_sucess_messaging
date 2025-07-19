@@ -3,16 +3,18 @@ let mained = document.getElementById("mained")
 let viewa = document.getElementById("view")
 let viewb = document.getElementById("views")
 butt.addEventListener("click", function (e) {
-    e.preventDefault
-    viewa.classList.toggle("hidden")
-    viewb.classList.toggle("hidden")
-    // let emai = document.getElementById("emai").value.trim();
-    // const warn = document.getElementById("warn")
-    // if (warn === "") {
-    //     warn.classList.remove("hidden")
-    // }
-    // else{
-    //     warn.classList.add("hidden")
-    // }
+    e.preventDefault()
 
+    let emai = document.getElementById("emai").value.trim();
+    const warn = document.getElementById("warn")
+    if (emai === "") {
+        warn.classList.remove("hidden")
+        return
+    }
+    else{
+        warn.classList.add("hidden")
+    
+    viewa.classList.add("hidden")
+    viewb.classList.remove("hidden")
+    }
 })
